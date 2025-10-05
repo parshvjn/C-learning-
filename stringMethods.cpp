@@ -4,7 +4,7 @@ int main(){
 
     std::string name;
 
-    std::cout << "Enter your name: "<< '\n';
+    std::cout << "Enter your name: ";
     std::getline(std::cin, name);
 
     std::cout << name.length()<< '\n';
@@ -12,7 +12,7 @@ int main(){
     // name.clear();
     name.append(" is better :).");
     std::cout << name << '\n';
-    std::cout << name.at(2); // takes character at specific index (remember it starts at 0 not 1 like python)
+    std::cout << name.at(2) << '\n'; // takes character at specific index (remember it starts at 0 not 1 like python)
 
     return 0;
 }

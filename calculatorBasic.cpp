@@ -37,7 +37,6 @@ int main(){
             break;
         default:
             std::cout << "That was not a valid operation" << "\n";
-            break;
     }
 
     std::cout << "**************************************";
